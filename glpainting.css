@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between; /* Distribute space between the logo and navigation */
     align-items: center; /* Vertically center both the logo and the navigation */
-    padding: 10px 20px; /* Adding some padding for spacing */
+    padding: 5px px; /* Adding some padding for spacing */
     position: relative; /* Ensure topnav can be adjusted */
 }
 
@@ -11,6 +11,7 @@
 .logo {
     width: 250px;  
     height: auto; 
+    margin-left: 80px; 
 }
 
 /* Top navigation styling */
@@ -36,4 +37,56 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; 
+}
+
+.first-heading {
+    font-size: 350%; 
+    text-align: left; 
+    padding-left: 100px; 
+    color: white; 
+    font-weight: bold; 
+    margin-top: -45px;
+}
+
+.second-heading {
+    font-size: 300%; 
+    text-align: left; 
+    font-family: 'Gordita', sans-serif;
+    padding-left: 100px; 
+    color: white; 
+}
+
+.button {
+    font-size: 20px; 
+    background-color: white;      
+    color: rgb(0, 0, 0);            
+    padding: 15px 30px;             
+    border-radius: 0;               /* Sharp edges */
+    cursor: pointer;               
+    transition: background-color 0.3s, color 0.3s;
+    border: none;                         
+    margin-top: 20px;               /* Add some space between the button and the headings */
+    display: block;                 /* Make the button block-level for better alignment */
+    margin-left: auto;              /* Automatically pushes the button to the right */
+    margin-left: 100px;             /* Adds some space to the right of the button */
+}
+
+
+/*About Us Page*/ 
+
+
+
+/*Contact Page*/
+
+.contact-page {
+    background-color: blue; /* Blue background for Contact page */
+}
+
+/* You can also keep your background image on other pages if needed */
+body {
+    background-image: url('painter.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
