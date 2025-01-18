@@ -1,0 +1,37 @@
+/* Website styling */
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the logo and navigation */
+    align-items: center; /* Vertically center both the logo and the navigation */
+    padding: 10px 20px; /* adding some padding for spacing */
+}
+
+/* Logo styling */
+.logo {
+    width: 150px; 
+    height: auto; 
+}
+
+/* Top navigation styling */
+.topnav {
+    display: flex; 
+}
+
+.topnav a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold; /* Make the navigation options bolder */
+}
+
+/* Background image styling */
+body {
+    background-image: url('example.jpeg');
+    background-size: 100% 100%; /* Set the height to 50% and width to 100% of the container */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
